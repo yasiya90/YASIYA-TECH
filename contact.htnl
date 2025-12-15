@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Movie Zoone Lk</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #111;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255,0,76,0.6);
+      text-align: center;
+      max-width: 350px;
+      width: 100%;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    .number {
+      font-size: 1.3rem;
+      margin: 15px 0;
+      color: #ff7a00;
+      font-weight: bold;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      background: #ff004c;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>📞 Contact</h1>
+    <p><strong>Owner Foundation</strong></p>
+    <p>Yasidu Sudarshana</p>
+
+    <div class="number">+94 774 707 462</div>
+
+    <a class="back" href="index.html">⬅ Back to Home</a>
+  </div>
+</body>
+</html>
